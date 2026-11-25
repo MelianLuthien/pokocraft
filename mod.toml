@@ -1,0 +1,46 @@
+id = "pokocraft"
+name = "PokoCraft"
+version = "1.0.0"
+authors = ["MelianLuthien"]
+description = "Crafting never consumes materials, and can optionally work with an empty bag. Code mod, no game files included."
+license = "MIT"
+loader = ">=0.6.0 <1.0.0"
+game = ["2.0.1"]
+affects = "gameplay"
+tags = ["cheat"]
+
+[[settings]]
+key = "bypass_requirements"
+type = "bool"
+default = true
+label = "Bypass Requirements"
+
+[[hooks."2.0.1"]]
+name = "ingredient"
+target = "main+0x74f380"
+word = 0xd503237f
+kind = "take_over"
+
+[[hooks."2.0.1"]]
+name = "ret_74e1bc"
+target = "main+0x74e1bc"
+word = 0x36002380
+kind = "take_over"
+
+[[hooks."2.0.1"]]
+name = "avail_74df10"
+target = "main+0x74df10"
+word = 0xaa0003e8
+kind = "take_over"
+
+[[hooks."2.0.1"]]
+name = "force_fill_154"
+target = "main+0xeee154"
+word = 0x340001a0
+kind = "take_over"
+
+[[hooks."2.0.1"]]
+name = "force_qty_1a0"
+target = "main+0xeee1a0"
+word = 0x13003c16
+kind = "take_over"

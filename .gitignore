@@ -1,0 +1,10 @@
+# Build output and packages are published as release assets, not committed
+*.pkmod
+dist/
+build/
+*.o
+*.obj
+*.pdb
+*.lib
+*.exp
+*.ilk
