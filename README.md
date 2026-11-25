@@ -33,10 +33,14 @@ lists it as a cheat and keeps shared achievements off while it is enabled.
 
 ## Install
 
-1. Put `pokocraft-1.0.0.pkmod` in your Recompia `mods` folder.
-2. Start the game. Recompia lists PokoCraft with its settings.
+1. Use Recompia 0.16.0 or later with Modtopia, and game version 2.0.1.
+2. Install `pokocraft-1.0.0.pkmod` from the app's **Browse mods**, or copy it
+   into Recompia's `mods` folder.
+3. Start the game and set **Bypass Requirements** in the mod's settings.
 
-No RomFS patch and no `pkp.ini` change are needed.
+No RomFS patch and no `pkp.ini` change are needed. The full guide, including
+checking the download hash, uninstall and troubleshooting, is in
+[docs/INSTALL.md](docs/INSTALL.md).
 
 ## Build from source
 
