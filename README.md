@@ -15,6 +15,10 @@
 [Changelog](CHANGELOG.md) ·
 [Build from source](docs/BUILD.md)
 
+<img src="docs/images/craft-without-materials.webp" alt="Crafting a Berry basket in Pokopia while four of its five berries are missing, ending with the message: You made 1 berry basket!" width="800">
+
+<sub>A Berry basket crafted with four of its five berries missing.</sub>
+
 </div>
 
 ## What it changes
@@ -34,7 +38,8 @@ storage or edit recipe data, so recipes still list their usual ingredients.
 
 You need **Recompia 0.16.0 or later** with **Modtopia**, and **Pokopia 2.0.1**
 (build `76a489f3bd3642fa5e18bd83d32c98ba`). Windows x64 and Linux x64,
-including Steam Deck.
+including Steam Deck. **The Linux build has not been tested yet**; reports are
+welcome in [Issues](https://github.com/MelianLuthien/pokocraft/issues).
 
 1. Download `pokocraft-1.0.1.pkmod` from the [latest release](https://github.com/MelianLuthien/pokocraft/releases/latest).
 2. Copy it into Recompia's `mods` folder.
@@ -62,5 +67,7 @@ uninstalling and troubleshooting.
 
 The code and documentation are under the [MIT licence](LICENSE).
 
+The clip in `docs/images` shows Pokémon Pokopia. The game and its artwork
+belong to their respective owners and are **not** covered by the MIT licence.
 This is an unofficial fan project, not affiliated with or endorsed by Nintendo
 or The Pokémon Company.

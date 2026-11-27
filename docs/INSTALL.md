@@ -7,7 +7,7 @@ RomFS mod.
 ## Requirements
 
 - **Windows x64 or Linux x64**, including Steam Deck. One package holds both
-  builds.
+  builds. **The Linux build has not been tested yet.**
 - **Recompia 0.16.0 or later**, with the **Modtopia** mod loader.
 - **Pokopia 2.0.1**, build `76a489f3bd3642fa5e18bd83d32c98ba`. This is the only
   game version covered; a game update needs a new PokoCraft release.
