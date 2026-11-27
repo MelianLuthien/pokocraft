@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Adds a Linux x64 build, for Recompia on Linux and Steam Deck.
+- No changes to how the mod behaves.
+
 ## 1.0.0
 
 First public release.

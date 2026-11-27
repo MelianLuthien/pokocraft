@@ -6,7 +6,8 @@ RomFS mod.
 
 ## Requirements
 
-- **Windows x64** (the package ships `bin/windows-x64/mod.dll`).
+- **Windows x64 or Linux x64**, including Steam Deck. One package holds both
+  builds.
 - **Recompia 0.16.0 or later**, with the **Modtopia** mod loader.
 - **Pokopia 2.0.1**, build `76a489f3bd3642fa5e18bd83d32c98ba`. This is the only
   game version covered; a game update needs a new PokoCraft release.
@@ -24,27 +25,29 @@ The app puts the `.pkmod` in the right place for you.
 
 ## Install by hand
 
-1. Download `pokocraft-1.0.0.pkmod` from the **Releases** page.
+1. Download `pokocraft-1.0.1.pkmod` from the **Releases** page.
 2. Check the download (optional but recommended). In PowerShell, in the folder
    where you saved the file:
 
    ```powershell
-   Get-FileHash .\pokocraft-1.0.0.pkmod -Algorithm SHA256
+   Get-FileHash .\pokocraft-1.0.1.pkmod -Algorithm SHA256
    ```
+
+   On Linux or Steam Deck, run `sha256sum pokocraft-1.0.1.pkmod` instead.
 
    The hash must match the SHA-256 in the release notes.
 
-3. Copy `pokocraft-1.0.0.pkmod` into the `mods` folder of your Recompia install
+3. Copy `pokocraft-1.0.1.pkmod` into the `mods` folder of your Recompia install
    (the folder next to `pkp.ini`).
 4. Start the game. If Modtopia asks whether to allow PokoCraft, allow it.
 
 ## Check that it loaded
 
-- The app's mod list shows **PokoCraft 1.0.0**.
+- The app's mod list shows **PokoCraft 1.0.1**.
 - `pkp.log`, in the Recompia folder, contains the line:
 
   ```
-  pokocraft 1.0.0 ready
+  pokocraft 1.0.1 ready
   ```
 
 If the line is missing, the mod was not loaded: check the `mods` folder, and
@@ -68,7 +71,7 @@ materials for. It should complete, and your bag should not change.
 
 ## Uninstall
 
-Delete `pokocraft-1.0.0.pkmod` from the `mods` folder (or uninstall it from the
+Delete `pokocraft-1.0.1.pkmod` from the `mods` folder (or uninstall it from the
 app). No game files were changed, so nothing else needs undoing.
 
 If your install keeps per-mod settings, you can also delete PokoCraft's settings
@@ -81,10 +84,10 @@ The file is not in Recompia's `mods` folder, or Modtopia is not installed.
 
 **The game still says you don't have enough materials.**
 Turn **Bypass Requirements** on in the mod settings. If it is already on, check
-that the game is version 2.0.1 and that the loaded version is 1.0.0.
+that the game is version 2.0.1 and that the loaded version is 1.0.1.
 
 **Nothing changes at all.**
-Check `pkp.log` for `pokocraft 1.0.0 ready`. If it is missing, the mod is not
+Check `pkp.log` for `pokocraft 1.0.1 ready`. If it is missing, the mod is not
 loaded. A game update also breaks the hook addresses; install a PokoCraft
 release for your game version.
 

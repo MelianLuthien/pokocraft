@@ -1,4 +1,4 @@
-/* PokoCraft 1.0.0 — crafting never consumes materials, and can optionally
+/* PokoCraft 1.0.1 — crafting never consumes materials, and can optionally
  * work with an empty bag.
  *
  * Hooks (Modtopia take_over, game build 2.0.1):
@@ -84,6 +84,6 @@ MT_EXPORT int mod_init(const MtHost *host, MtMod *mod) {
             return MT_ERR;
         }
     }
-    H->log(M, MT_LOG_INFO, "pokocraft 1.0.0 ready");
+    H->log(M, MT_LOG_INFO, "pokocraft 1.0.1 ready");
     return MT_OK;
 }

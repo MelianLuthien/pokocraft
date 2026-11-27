@@ -7,7 +7,7 @@
 [![Latest release](https://img.shields.io/github/v/release/MelianLuthien/pokocraft?style=flat-square&color=f2a30f)](https://github.com/MelianLuthien/pokocraft/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/MelianLuthien/pokocraft/total?style=flat-square&color=3a3fb5)](https://github.com/MelianLuthien/pokocraft/releases)
 ![Pokopia 2.0.1](https://img.shields.io/badge/Pokopia-2.0.1-5aa02c?style=flat-square)
-![Windows x64](https://img.shields.io/badge/Windows-x64-555555?style=flat-square)
+![Windows and Linux x64](https://img.shields.io/badge/Windows%20%7C%20Linux-x64-555555?style=flat-square)
 [![MIT licence](https://img.shields.io/badge/licence-MIT-777777?style=flat-square)](LICENSE)
 
 [**Download**](https://github.com/MelianLuthien/pokocraft/releases/latest) ·
@@ -33,9 +33,10 @@ storage or edit recipe data, so recipes still list their usual ingredients.
 ## Install
 
 You need **Recompia 0.16.0 or later** with **Modtopia**, and **Pokopia 2.0.1**
-(build `76a489f3bd3642fa5e18bd83d32c98ba`).
+(build `76a489f3bd3642fa5e18bd83d32c98ba`). Windows x64 and Linux x64,
+including Steam Deck.
 
-1. Download `pokocraft-1.0.0.pkmod` from the [latest release](https://github.com/MelianLuthien/pokocraft/releases/latest).
+1. Download `pokocraft-1.0.1.pkmod` from the [latest release](https://github.com/MelianLuthien/pokocraft/releases/latest).
 2. Copy it into Recompia's `mods` folder.
 3. Start the game and set **Bypass Requirements** in the mod's settings.
 

@@ -1,6 +1,6 @@
 id = "pokocraft"
 name = "PokoCraft"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["MelianLuthien"]
 description = "Crafting never consumes materials, and can optionally work with an empty bag. Code mod, no game files included."
 license = "MIT"
