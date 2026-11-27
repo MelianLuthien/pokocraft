@@ -60,7 +60,9 @@ uninstalling and troubleshooting.
 - **Game build 2.0.1 only.** A game update moves the hook addresses and needs a
   new release.
 - **Construction and building costs** are not covered yet.
-- **The Expansion Pass (DLC)** is not modified.
+- **The Expansion Pass (DLC)** should work in theory, because the mod changes
+  the game's crafting code rather than recipe data. This has **not been tested**
+  with the DLC.
 - **No game files** are included, copied or patched by the mod.
 
 ## Licence
